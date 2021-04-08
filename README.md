@@ -29,11 +29,15 @@ This project has been implemented as a pair of bookmarks, one for simplifying se
 
 **Search**
 
+Copy and paste the code below into the URL field of the bookmark for searching
+
 ```
 javascript:"use strict";!function(){var e=prompt("Enter search query");window.location.replace("https://chrome.google.com/webstore/search/"+e+"?_category=extensions")}();
 ```
 
 **Sort**
+
+Copy and paste the code below into the URL field of the bookmark for sorting
 
 ```
 javascript:"use strict";!function(){var r=Array.from(document.querySelectorAll(".webstore-test-wall-tile")).map(function(r,e){var t,n,l,i,o=Array.from(r.querySelectorAll("div[title]")).filter(function(r){var e;return null===(e=r.title)||void 0===e?void 0:e.includes("Average")})[0],a=null!==(n=null===(t=null==o?void 0:o.title)||void 0===t?void 0:t.match(/[\d,]+(?:.\d)?/gm))&&void 0!==n?n:["0","0","0"];return[e,r,{average:Number(a[0]),ratings:Number(null!==(i=null===(l=a[2])||void 0===l?void 0:l.replace(",",""))&&void 0!==i?i:1)}]});r.sort(function(r,e){return r[2].ratings>e[2].ratings?-1:e[2].ratings>r[2].ratings?1:e[2].average-r[2].average});var e=document.querySelector("div[role='row']");if(!e)throw new Error("row not found");e.innerHTML="";for(var t=0,n=r;t<n.length;t++){var l=n[t];e.appendChild(l[1])}}();
