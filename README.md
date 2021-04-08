@@ -13,6 +13,7 @@ Because somehow the search engine owned chrome web store search results suck
 ### Installation
 
 This project has been implemented as a pair of bookmarks, one for simplifying searching the web store and the other for sorting its results.
+
 **How to Create a Bookmark**
 
 - right click the bookmark bar in chrome
