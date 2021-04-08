@@ -1,0 +1,24 @@
+{
+  "name": "chrome-better-web-store",
+  "version": "1.0.0",
+  "description": "Because somehow the chrome web store (owned by a search engine company) search results suck",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagsMagnoli/chrome-better-web-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagsMagnoli/chrome-better-web-store/issues"
+  },
+  "homepage": "https://github.com/MagsMagnoli/chrome-better-web-store#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
