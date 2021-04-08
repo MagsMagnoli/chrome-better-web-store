@@ -14,7 +14,7 @@ Because somehow the search engine owned chrome web store search results suck
 
 This project has been implemented as a pair of bookmarks, one for simplifying searching the web store and the other for sorting its results.
 
-###How to Create a Bookmark
+### How to Create a Bookmark
 
 - right click the bookmark bar in chrome
 - click 'Add Page'
@@ -34,7 +34,7 @@ Copy and paste the code below into the URL field of the bookmark for searching
 javascript:"use strict";!function(){var e=prompt("Enter search query");window.location.replace("https://chrome.google.com/webstore/search/"+e+"?_category=extensions")}();
 ```
 
-###Sort
+### Sort
 
 Copy and paste the code below into the URL field of the bookmark for sorting
 
@@ -44,11 +44,11 @@ javascript:"use strict";!function(){var r=Array.from(document.querySelectorAll("
 
 ## Usage
 
-###Search
+### Search
 
 Click on the search bookmark anywhere on the web to bring up a prompt to search the web store. You will be taken to the expanded results page
 
-###Sort
+### Sort
 
 While on the results page of a search click the sort bookmark to sort results by total ratings and average rating
 
